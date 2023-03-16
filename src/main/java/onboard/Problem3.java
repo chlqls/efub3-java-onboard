@@ -14,16 +14,6 @@ public class Problem3 {
         }
 
         Collections.sort(numbers);
-//        for(int i = 0; i < 4; i++) {
-//            for(int j = i + 1; j < 5; j++) {
-//                if(numbers.get(i) > numbers.get(j)){
-//                    Collections.swap(numbers, i, j);
-                    //int temp = numbers.get(i);
-                    //numbers.set(i, numbers.get(j));
-                    //numbers.set(j, temp);
-//                }
-//            }
-//        }
 
         answer = List.of(sum / 5, numbers.get(2));
 
